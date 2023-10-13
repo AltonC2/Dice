@@ -13,7 +13,7 @@ void draw()
   fill(255);
   ellipse(320,50,100,50);
   fill(0);
-  text("Total: " + total,300,50);
+
   total = 0;
   for ( int i = 100; i<=600;i+=100){
     for (int p = 100; p<600; p+=100){
@@ -22,7 +22,7 @@ void draw()
   what.show();
   }
   }
-  
+    text("Total: " + total,300,50);
   
  
   
